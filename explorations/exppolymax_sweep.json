@@ -14,10 +14,10 @@
       "compile": [true],
       "softmax_variant_attn": ["exppolymax"],
       "exppolymax_use_euler_base":[true,false],
-      "exppolymax_base":["2.0","2.719","3.0","3.5","4.0","4.5"],
+      "exppolymax_base":["1.5", "2", "2.719", "3", "4", "5"],
       "exppolymax_y_intercept":["1.0","2.0","3.0","4.0","5.0"],
       "exppolymax_power":["1.0","2.0","3.0","4.0","5.0"],
-      "exppolymax_divisor":["200.0","400.0","600.0","800.0","1000.0","1200.0"],
+      "exppolymax_divisor":["1.0","10.0","100.0","1000.0"],
       "use_post_ln": [true, false]
     }
   ]
