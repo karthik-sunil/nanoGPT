@@ -1,6 +1,6 @@
 [
     {
-      "max_iters": ["8000"],
+      "max_iters": ["3500"],
       "n_layer": ["6"],
       "n_kv_group": ["2"],
       "n_head": ["6"],
