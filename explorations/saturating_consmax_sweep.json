@@ -20,6 +20,7 @@
       "consmax_use_euler_base": [true,false],
       "consmax_base": ["1.5", "2", "2.719", "3", "4", "5"],
       "consmax_saturation":["3","8","11","21","55"],
+      "div_by_seq_len" : [true,false],
       "use_post_ln": [true, false]
     }
   ]

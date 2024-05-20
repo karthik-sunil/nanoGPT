@@ -18,6 +18,7 @@
       "exppolymax_y_intercept":["1.0","2.0","3.0","4.0","5.0"],
       "exppolymax_power":["1.0","2.0","3.0","4.0","5.0"],
       "exppolymax_divisor":["1.0","10.0","100.0","1000.0"],
+      "div_by_seq_len" : [true,false],
       "use_post_ln": [true, false]
     }
   ]
