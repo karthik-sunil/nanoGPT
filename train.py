@@ -194,6 +194,12 @@ def parse_args():
     ### Softermax Specific Options
     model_group.add_argument('--softermax_use_xmax', default=True, action=argparse.BooleanOptionalAction)
 
+    ### SoftPlus Options
+    model_group.add_argument('--softermax_use_xmax', default=True, action=argparse.BooleanOptionalAction)
+
+    ### SquarePlus Options
+    model_group.add_argument('--softermax_use_xmax', default=True, action=argparse.BooleanOptionalAction)
+
     # Optimizer args
     training_group.add_argument('--max_iters', default=3500, type=int)
     training_group.add_argument('--weight_decay', default=1e-1, type=float)
